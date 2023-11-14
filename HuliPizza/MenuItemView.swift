@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MenuItemView: View {
+    @State private var addedItem:Bool = false
+    
     var body: some View {
         VStack {
             HStack {
@@ -45,6 +47,18 @@ struct MenuItemView: View {
                 }
                 
             }
+            
+            Button{
+                addedItem = true
+            }label: {
+                Spacer()
+                Text(12.99, format: .currency(code: "USD")).bold()
+                Image(systemName: addedItem ? "cart.fill.badge.plus": "cart.badge.plus" )
+                Spacer()
+            }.padding()
+                .background(.red, in: Capsule())
+                .foregroundStyle(.white)
+                .padding(5 )
         }
     }
 }

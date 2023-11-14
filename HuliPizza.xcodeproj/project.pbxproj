@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A250A872B0402BE0080603F /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A250A832B0402BE0080603F /* MenuItem.swift */; };
+		0A250A882B0402BE0080603F /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A250A842B0402BE0080603F /* MenuModel.swift */; };
+		0A250A892B0402BE0080603F /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A250A852B0402BE0080603F /* OrderItem.swift */; };
+		0A250A8A2B0402BE0080603F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A250A862B0402BE0080603F /* OrderModel.swift */; };
 		177F8B332922C9F700434993 /* HuliPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B322922C9F700434993 /* HuliPizzaApp.swift */; };
 		177F8B352922C9F700434993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B342922C9F700434993 /* ContentView.swift */; };
 		177F8B372922C9FA00434993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177F8B362922C9FA00434993 /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A250A832B0402BE0080603F /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		0A250A842B0402BE0080603F /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		0A250A852B0402BE0080603F /* OrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		0A250A862B0402BE0080603F /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		177F8B2F2922C9F700434993 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177F8B322922C9F700434993 /* HuliPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaApp.swift; sourceTree = "<group>"; };
 		177F8B342922C9F700434993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +54,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A250A822B0402BE0080603F /* Model Code */ = {
+			isa = PBXGroup;
+			children = (
+				0A250A832B0402BE0080603F /* MenuItem.swift */,
+				0A250A842B0402BE0080603F /* MenuModel.swift */,
+				0A250A852B0402BE0080603F /* OrderItem.swift */,
+				0A250A862B0402BE0080603F /* OrderModel.swift */,
+			);
+			path = "Model Code";
+			sourceTree = "<group>";
+		};
 		177F8B262922C9F700434993 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +93,7 @@
 				177F8B462923006000434993 /* MenuRowView.swift */,
 				177F8B482923008200434993 /* OrderRowView.swift */,
 				177F8B4A292300C500434993 /* HeaderView.swift */,
+				0A250A822B0402BE0080603F /* Model Code */,
 				177F8B362922C9FA00434993 /* Assets.xcassets */,
 				177F8B382922C9FA00434993 /* Preview Content */,
 			);
@@ -161,12 +181,16 @@
 				177F8B412922FD5800434993 /* OrderView.swift in Sources */,
 				177F8B432922FD8300434993 /* MenuView.swift in Sources */,
 				177F8B352922C9F700434993 /* ContentView.swift in Sources */,
+				0A250A8A2B0402BE0080603F /* OrderModel.swift in Sources */,
 				177F8B332922C9F700434993 /* HuliPizzaApp.swift in Sources */,
 				177F8B4D292310C300434993 /* RatingsView.swift in Sources */,
+				0A250A892B0402BE0080603F /* OrderItem.swift in Sources */,
 				177F8B472923006000434993 /* MenuRowView.swift in Sources */,
 				177F8B492923008200434993 /* OrderRowView.swift in Sources */,
+				0A250A882B0402BE0080603F /* MenuModel.swift in Sources */,
 				177F8B452923004100434993 /* MenuItemView.swift in Sources */,
 				177F8B4B292300C500434993 /* HeaderView.swift in Sources */,
+				0A250A872B0402BE0080603F /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
