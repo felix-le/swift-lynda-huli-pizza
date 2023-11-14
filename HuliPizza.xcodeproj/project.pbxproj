@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A09E2882B00757F00932F15 /* HuliPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09E2872B00757F00932F15 /* HuliPizzaApp.swift */; };
-		0A09E28A2B00757F00932F15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09E2892B00757F00932F15 /* ContentView.swift */; };
-		0A09E28C2B00758000932F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A09E28B2B00758000932F15 /* Assets.xcassets */; };
-		0A09E28F2B00758000932F15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A09E28E2B00758000932F15 /* Preview Assets.xcassets */; };
+		177F8B332922C9F700434993 /* HuliPizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B322922C9F700434993 /* HuliPizzaApp.swift */; };
+		177F8B352922C9F700434993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B342922C9F700434993 /* ContentView.swift */; };
+		177F8B372922C9FA00434993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177F8B362922C9FA00434993 /* Assets.xcassets */; };
+		177F8B3A2922C9FA00434993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177F8B392922C9FA00434993 /* Preview Assets.xcassets */; };
+		177F8B412922FD5800434993 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B402922FD5800434993 /* OrderView.swift */; };
+		177F8B432922FD8300434993 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B422922FD8300434993 /* MenuView.swift */; };
+		177F8B452923004100434993 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B442923004100434993 /* MenuItemView.swift */; };
+		177F8B472923006000434993 /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B462923006000434993 /* MenuRowView.swift */; };
+		177F8B492923008200434993 /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B482923008200434993 /* OrderRowView.swift */; };
+		177F8B4B292300C500434993 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B4A292300C500434993 /* HeaderView.swift */; };
+		177F8B4D292310C300434993 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177F8B4C292310C300434993 /* RatingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A09E2842B00757F00932F15 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A09E2872B00757F00932F15 /* HuliPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaApp.swift; sourceTree = "<group>"; };
-		0A09E2892B00757F00932F15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0A09E28B2B00758000932F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0A09E28E2B00758000932F15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		177F8B2F2922C9F700434993 /* HuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177F8B322922C9F700434993 /* HuliPizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaApp.swift; sourceTree = "<group>"; };
+		177F8B342922C9F700434993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		177F8B362922C9FA00434993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		177F8B392922C9FA00434993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		177F8B402922FD5800434993 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		177F8B422922FD8300434993 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		177F8B442923004100434993 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		177F8B462923006000434993 /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		177F8B482923008200434993 /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		177F8B4A292300C500434993 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		177F8B4C292310C300434993 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A09E2812B00757F00932F15 /* Frameworks */ = {
+		177F8B2C2922C9F700434993 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +46,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A09E27B2B00757F00932F15 = {
+		177F8B262922C9F700434993 = {
 			isa = PBXGroup;
 			children = (
-				0A09E2862B00757F00932F15 /* HuliPizza */,
-				0A09E2852B00757F00932F15 /* Products */,
+				177F8B312922C9F700434993 /* HuliPizza */,
+				177F8B302922C9F700434993 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0A09E2852B00757F00932F15 /* Products */ = {
+		177F8B302922C9F700434993 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A09E2842B00757F00932F15 /* HuliPizza.app */,
+				177F8B2F2922C9F700434993 /* HuliPizza.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A09E2862B00757F00932F15 /* HuliPizza */ = {
+		177F8B312922C9F700434993 /* HuliPizza */ = {
 			isa = PBXGroup;
 			children = (
-				0A09E2872B00757F00932F15 /* HuliPizzaApp.swift */,
-				0A09E2892B00757F00932F15 /* ContentView.swift */,
-				0A09E28B2B00758000932F15 /* Assets.xcassets */,
-				0A09E28D2B00758000932F15 /* Preview Content */,
+				177F8B322922C9F700434993 /* HuliPizzaApp.swift */,
+				177F8B342922C9F700434993 /* ContentView.swift */,
+				177F8B4C292310C300434993 /* RatingsView.swift */,
+				177F8B402922FD5800434993 /* OrderView.swift */,
+				177F8B422922FD8300434993 /* MenuView.swift */,
+				177F8B442923004100434993 /* MenuItemView.swift */,
+				177F8B462923006000434993 /* MenuRowView.swift */,
+				177F8B482923008200434993 /* OrderRowView.swift */,
+				177F8B4A292300C500434993 /* HeaderView.swift */,
+				177F8B362922C9FA00434993 /* Assets.xcassets */,
+				177F8B382922C9FA00434993 /* Preview Content */,
 			);
 			path = HuliPizza;
 			sourceTree = "<group>";
 		};
-		0A09E28D2B00758000932F15 /* Preview Content */ = {
+		177F8B382922C9FA00434993 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0A09E28E2B00758000932F15 /* Preview Assets.xcassets */,
+				177F8B392922C9FA00434993 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +91,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A09E2832B00757F00932F15 /* HuliPizza */ = {
+		177F8B2E2922C9F700434993 /* HuliPizza */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A09E2922B00758000932F15 /* Build configuration list for PBXNativeTarget "HuliPizza" */;
+			buildConfigurationList = 177F8B3D2922C9FA00434993 /* Build configuration list for PBXNativeTarget "HuliPizza" */;
 			buildPhases = (
-				0A09E2802B00757F00932F15 /* Sources */,
-				0A09E2812B00757F00932F15 /* Frameworks */,
-				0A09E2822B00757F00932F15 /* Resources */,
+				177F8B2B2922C9F700434993 /* Sources */,
+				177F8B2C2922C9F700434993 /* Frameworks */,
+				177F8B2D2922C9F700434993 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +105,25 @@
 			);
 			name = HuliPizza;
 			productName = HuliPizza;
-			productReference = 0A09E2842B00757F00932F15 /* HuliPizza.app */;
+			productReference = 177F8B2F2922C9F700434993 /* HuliPizza.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A09E27C2B00757F00932F15 /* Project object */ = {
+		177F8B272922C9F700434993 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					0A09E2832B00757F00932F15 = {
-						CreatedOnToolsVersion = 15.0.1;
+					177F8B2E2922C9F700434993 = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = 0A09E27F2B00757F00932F15 /* Build configuration list for PBXProject "HuliPizza" */;
+			buildConfigurationList = 177F8B2A2922C9F700434993 /* Build configuration list for PBXProject "HuliPizza" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,46 +131,52 @@
 				en,
 				Base,
 			);
-			mainGroup = 0A09E27B2B00757F00932F15;
-			productRefGroup = 0A09E2852B00757F00932F15 /* Products */;
+			mainGroup = 177F8B262922C9F700434993;
+			productRefGroup = 177F8B302922C9F700434993 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A09E2832B00757F00932F15 /* HuliPizza */,
+				177F8B2E2922C9F700434993 /* HuliPizza */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A09E2822B00757F00932F15 /* Resources */ = {
+		177F8B2D2922C9F700434993 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A09E28F2B00758000932F15 /* Preview Assets.xcassets in Resources */,
-				0A09E28C2B00758000932F15 /* Assets.xcassets in Resources */,
+				177F8B3A2922C9FA00434993 /* Preview Assets.xcassets in Resources */,
+				177F8B372922C9FA00434993 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A09E2802B00757F00932F15 /* Sources */ = {
+		177F8B2B2922C9F700434993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A09E28A2B00757F00932F15 /* ContentView.swift in Sources */,
-				0A09E2882B00757F00932F15 /* HuliPizzaApp.swift in Sources */,
+				177F8B412922FD5800434993 /* OrderView.swift in Sources */,
+				177F8B432922FD8300434993 /* MenuView.swift in Sources */,
+				177F8B352922C9F700434993 /* ContentView.swift in Sources */,
+				177F8B332922C9F700434993 /* HuliPizzaApp.swift in Sources */,
+				177F8B4D292310C300434993 /* RatingsView.swift in Sources */,
+				177F8B472923006000434993 /* MenuRowView.swift in Sources */,
+				177F8B492923008200434993 /* OrderRowView.swift in Sources */,
+				177F8B452923004100434993 /* MenuItemView.swift in Sources */,
+				177F8B4B292300C500434993 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0A09E2902B00758000932F15 /* Debug */ = {
+		177F8B3B2922C9FA00434993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -182,8 +209,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -197,22 +223,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0A09E2912B00758000932F15 /* Release */ = {
+		177F8B3C2922C9FA00434993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -245,8 +269,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -254,17 +277,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0A09E2932B00758000932F15 /* Debug */ = {
+		177F8B3E2922C9FA00434993 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -272,7 +295,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
-				DEVELOPMENT_TEAM = L4727YHBDL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = felix.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -293,7 +315,7 @@
 			};
 			name = Debug;
 		};
-		0A09E2942B00758000932F15 /* Release */ = {
+		177F8B3F2922C9FA00434993 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -301,7 +323,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
-				DEVELOPMENT_TEAM = L4727YHBDL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,7 +335,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = felix.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeapppie.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,25 +346,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A09E27F2B00757F00932F15 /* Build configuration list for PBXProject "HuliPizza" */ = {
+		177F8B2A2922C9F700434993 /* Build configuration list for PBXProject "HuliPizza" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A09E2902B00758000932F15 /* Debug */,
-				0A09E2912B00758000932F15 /* Release */,
+				177F8B3B2922C9FA00434993 /* Debug */,
+				177F8B3C2922C9FA00434993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A09E2922B00758000932F15 /* Build configuration list for PBXNativeTarget "HuliPizza" */ = {
+		177F8B3D2922C9FA00434993 /* Build configuration list for PBXNativeTarget "HuliPizza" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A09E2932B00758000932F15 /* Debug */,
-				0A09E2942B00758000932F15 /* Release */,
+				177F8B3E2922C9FA00434993 /* Debug */,
+				177F8B3F2922C9FA00434993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0A09E27C2B00757F00932F15 /* Project object */;
+	rootObject = 177F8B272922C9F700434993 /* Project object */;
 }
