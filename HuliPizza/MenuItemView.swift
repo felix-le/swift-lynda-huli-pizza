@@ -9,11 +9,12 @@ import SwiftUI
 
 struct MenuItemView: View {
     @State private var addedItem:Bool = false
-    
+    @Binding var item:MenuItem
+    @ObservedObject var orders:OrderModel
     var body: some View {
         VStack {
             HStack {
-                Text("Margherita Huli Pizza")
+                Text(item.name)
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundStyle(.ultraThickMaterial)
@@ -21,7 +22,7 @@ struct MenuItemView: View {
                     
                     
                 
-                if let image = UIImage(named: "0x_lg"){
+                if let image = UIImage(named: "\(item.id)_lg"){
                     Image(uiImage: image)
                         .resizable()
                         .scaledToFit()
@@ -42,29 +43,31 @@ struct MenuItemView: View {
             VStack(alignment: .leading) {
                 
                 ScrollView {
-                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum porta est, non maximus libero varius in. Nullam quis risus sed lectus elementum elementum. Nullam sit amet mi vel odio sollicitudin commodo. Mauris fermentum nibh magna, ut blandit velit malesuada quis. Mauris scelerisque dictum mi nec molestie. Vivamus in semper.")
+                    Text(item.description)
                         .font(.custom("Georgia",size: 18,relativeTo: .body))
                 }
                 
             }
-            
             Button{
                 addedItem = true
-            }label: {
+                orders.addOrder(item, quantity: 1)
+            } label:{
                 Spacer()
-                Text(12.99, format: .currency(code: "USD")).bold()
-                Image(systemName: addedItem ? "cart.fill.badge.plus": "cart.badge.plus" )
+                Text(item.price,format:.currency(code: "USD")).bold()
+                Image(systemName: addedItem ? "cart.fill.badge.plus" : "cart.badge.plus")
                 Spacer()
-            }.padding()
-                .background(.red, in: Capsule())
-                .foregroundStyle(.white)
-                .padding(5 )
+            }
+            .disabled(item.id < 0 )
+            .padding()
+            .background(.red,in:Capsule())
+            .foregroundStyle(.white)
+            .padding(5)
         }
     }
 }
 
 struct MenuItemView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuItemView()
+        MenuItemView(item: .constant(testMenuItem), orders: OrderModel())
     }
 }
